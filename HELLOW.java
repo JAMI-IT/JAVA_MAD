@@ -3,7 +3,7 @@ import java.util.Scanner;
 class HELLOW{
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
+//Scanner sc=new Scanner(System.in);
         int b,c;
         //a=12;
         b=12;
@@ -14,7 +14,7 @@ class HELLOW{
         System.out.print("HEllow World");
         
         System.out.println("Enter the Number");
-        int a= sc.nextInt();    
+      //  int a= sc.nextInt();    
   
     }
 }
