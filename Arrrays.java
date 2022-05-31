@@ -1,6 +1,3 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 public class Arrrays {
 
     public static void main(String[] args)
