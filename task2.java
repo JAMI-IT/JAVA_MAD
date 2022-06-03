@@ -1,11 +1,14 @@
 
 import java.util.ArrayList;
 
+
 public class task2 {
     
     public static void main(String[] args) {
         String input;
         ArrayList<String> candidates=new ArrayList<String>();
+
+
          do{
                     System.out.println("\n\n ADD : Write Add to Enter the ");
                     System.out.println(" show :Write Show To show data");
