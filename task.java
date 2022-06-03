@@ -3,7 +3,9 @@ class task {
     public static void main(String[] args)
 {
 
-    int[] marks=new int[5];
+    int[] marks=new int[5]; 
+
+    
 
     for (int i = 0; i < marks.length; i++) {
         int n=i;
