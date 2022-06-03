@@ -14,15 +14,6 @@ public class Arrrays {
         System.out.println(marks[2][3]);
 
     }
-    
-
-
-    // ArrayList<String> namesList=new ArrayList<String>();
-    // namesList.add(e:"123");
-
-    // while
-
-
-    
+        
 
 }
