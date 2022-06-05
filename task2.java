@@ -33,6 +33,7 @@ public class task2 {
                             System.out.println(candidate);
                         }
                         break;
+    
                     }
     
     

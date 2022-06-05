@@ -1,54 +1,65 @@
 import java.util.HashMap;
-
 public class task3 {
-    public static void main(String[] args) {
-        
+    
+   
+    public static void main(String[] args) 
+    {
 
-        // ArrayList<String> car=new ArrayList<String>();
-        // car.add("Jami");
-        // // car.set(0,"AR");
-        // // car.clear();
-        // // car.remove(0);
-        // car.add("Abdul REhman");
+        HashMap<String,HashMap<String,Float>> student =new HashMap<String,HashMap<String,Float>>();
+
+   
+        String input="";
+         
+        do{
        
-        // System.out.println(car.size());
-        // System.out.println(car)
-        String input,rol;
-        Integer marks;
 
-        HashMap<String,Integer> student=new HashMap<String,Integer>();
+              System.out.println("---------------------------------------------------------------------------------");
+                    System.out.println("Chose The no To perform The THe opearation ?::");
+                    System.out.println("Press 1 For Data Entery ?::");
+                    System.out.println("Press 2 For Desplay Data? ::");
+                    System.out.println("Press -1 To EXIT >?");
+                    input=System.console().readLine();
+            
+ switch(input)
+        {   
+        case "1":
+        String rollNo="";
+        String Name="";
+        Float Marks;
 
-        do
+        System.out.println("---------------------Studen Record Entery Board------------------");
+        System.out.println("Enter the student Roll# :");
+        rollNo=System.console().readLine();
+
+        HashMap<String,Float> Bio=new HashMap<String,Float>();
+        System.out.println("ENter The Student NAME :");
+        Name=System.console().readLine();
+        System.out.println("Enter The Student Marks :");
+        Marks=Float.parseFloat(System.console().readLine());
+
+
+        Bio.put(Name, Marks);
+        student.put(rollNo,Bio);
+
+        break;
+
+        case "2":
+        
+        for(String i : student.keySet())
         {
 
+            System.out.println("=====================Student Record========================");
 
-            System.out.println("Chose the no To perform Operation");
-            System.out.println("Press 1 To enter the data :");
-            System.out.println("Press 2 To Dislplay Data :");
-            System.out.println("Press -1 To Exit -");
-            input= System.console().readLine();
-            switch(input)
-            {
-                case "1":
-                System.out.println("Enter the Student Roll # :");
-                rol=System.console().readLine();
-                System.out.println("Enter the student marks");
-                //marks=System.console().readLine();
+            System.out.println("Roll # :"+i+"...Student NAME ,Marks ::"+student.get(i));
+            System.out.println("=====================--------------========================");
 
-                student.put(rol,50);
-                break;
-                
-                case "2":
-                System.out.println("------Candidates list-------");
-                        for (String students : student) {
-                            System.out.println(student);
-                        }
-                        break;
-               }
-
-
-           }
-
-           while(!input.equals("-1"));
         }
+        break;
+
+    }
+
+}
+    while(!input.equals("-1"));
+    
+    }
 }
