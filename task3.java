@@ -1,3 +1,4 @@
+import java.security.Key;
 import java.util.HashMap;
 public class task3 {
     
@@ -11,15 +12,12 @@ public class task3 {
         String input="";
          
         do{
-       
-
               System.out.println("---------------------------------------------------------------------------------");
                     System.out.println("Chose The no To perform The THe opearation ?::");
                     System.out.println("Press 1 For Data Entery ?::");
-                    System.out.println("Press 2 For Desplay Data? ::");
+                    System.out.println("Press 2 For Display Data? ::");
                     System.out.println("Press -1 To EXIT >?");
                     input=System.console().readLine();
-            
  switch(input)
         {   
         case "1":
@@ -30,6 +28,12 @@ public class task3 {
         System.out.println("---------------------Studen Record Entery Board------------------");
         System.out.println("Enter the student Roll# :");
         rollNo=System.console().readLine();
+
+        if(student.containsKey(rollNo))
+        {
+            System.out.println("Try Another ::");
+            break;
+        }
 
         HashMap<String,Float> Bio=new HashMap<String,Float>();
         System.out.println("ENter The Student NAME :");
