@@ -1,0 +1,87 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrrays",
+            "request": "launch",
+            "mainClass": "Arrrays",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch HELLOW",
+            "request": "launch",
+            "mainClass": "HELLOW",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch hashmap",
+            "request": "launch",
+            "mainClass": "hashmap",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch inoput",
+            "request": "launch",
+            "mainClass": "inoput",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch loops",
+            "request": "launch",
+            "mainClass": "loops",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch task",
+            "request": "launch",
+            "mainClass": "task",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch task1",
+            "request": "launch",
+            "mainClass": "task1",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch task2",
+            "request": "launch",
+            "mainClass": "task2",
+            "projectName": "java_3b002260"
+        },
+        {
+            "type": "java",
+            "name": "Launch task3",
+            "request": "launch",
+            "mainClass": "task3",
+            "projectName": "java_3b002260"
+        }
+    ]
+}
