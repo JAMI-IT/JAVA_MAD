@@ -4,6 +4,13 @@ public class animal {
    String name;
    String color;
 
+
+   public animal()
+   {
+       this.name="";
+       this.color="";
+   }
+
    public void Name(String name) {
        this.name=name;
        
