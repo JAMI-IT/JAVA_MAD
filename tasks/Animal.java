@@ -1,5 +1,3 @@
-package Classes;
-
 public class Animal {
     String name;
     String color;
