@@ -1,5 +1,5 @@
 public class enumi {
-    enum Pizza{
+   public enum Pizza{
         Chesse,
         Vegitable,
         chiken,

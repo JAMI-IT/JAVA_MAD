@@ -4,4 +4,4 @@ public class piza extends enumi  {
         System.out.println(typ);
         System.out.println(Pizza.Tika);
     }
-}
+}   

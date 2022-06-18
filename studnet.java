@@ -13,7 +13,10 @@ public class studnet {
 
     }
 
-    public studnet(String name,String age){}
+    public studnet(String name,String age){
+        this.name=name;
+        this.age=
+    }
 
     public studnet(String name,String age,HashMap<String,Integer> ){}
 
