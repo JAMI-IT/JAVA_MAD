@@ -14,5 +14,6 @@ public class Factorials {
        
         obj.n=System.console().readLine();
         obj.Facto(obj.n);
+        
     }
 }
